@@ -14,3 +14,23 @@ input[type=radio] {display:none}
     overflow: hidden;
       
     }
+
+    .nav ul{
+        
+        list-style-type: none;
+        padding: 0;
+        margin: 0
+          
+          }  
+            
+        .nav li a{
+          
+        background-color: #e5e5e5;
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+        align-items: center;
+          
+}
+
+
