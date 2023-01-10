@@ -6,3 +6,11 @@ input[type=radio] {display:none}
     margin: 2rem auto
 }
 
+.accordeon{
+        
+    display: grid; 
+    transition:grid-template-rows .4s ease-in-out;
+    grid-template-rows: 1fr 0;
+    overflow: hidden;
+      
+    }
