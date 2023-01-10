@@ -68,3 +68,10 @@ footer {
       color: white;
       text-decoration: underline;
     }
+
+    .logosite {
+        display: block;
+        max-width: 30%;
+        height: auto;
+        margin: auto;
+        }
