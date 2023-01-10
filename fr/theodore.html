@@ -10,23 +10,24 @@
 </head>
 <body>
     <header>
-     <img class="logo" src="/public/img/logo_site.svg" alt="logo site">
-     <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
-     <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
-     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
-         <ul class="navbar">
-             <li class="menuitem">Walter Crane</li>
-             <li class="menuitem">Theodor Kittelsen</li>
-             <li class="menuitem">Oda Krohg</li>
-             <li class="menuitem">Harald Sohlberg</li>
-             <li class="menuitem">Frise chronologique</li>
-             <hr>
-             <li class="menuitem">Billetterie</li>
-             <li class="menuitem">Contact</li>
-             <li class="menuitem">À propos</li>
-         </ul>
-     </nav>
-    </header>
+        <a href="/fr/index.html"><img class="logo" src="/public/img/logo_site.svg" alt="logo site"></a>
+        <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+            <ul class="navbar">
+                <li class="menuitem"><a class="amenu" href="/fr/waltercrane.html">Walter Crane</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/theodore.html">Theodor Kittelsen</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/oda.html">Oda Krohg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/harald.html">Harald Sohlberg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/frise.html">Frise chronologique</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/autresoueuvres.html">Autres oeuvres des auteurs</a></li>
+                <hr>
+                <li class="menuitem">Billetterie</li>
+                <li class="menuitem"><a class="amenu" href="/fr/contact.html">Contact</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/apropos.html">À propos</a></li>
+            </ul>
+        </nav>
+       </header>
     <main>
         <h2>Walter Crane</h2>
         <img class="imagemain" src="/public/img/theodore1.webp" alt="imagetheodore1">

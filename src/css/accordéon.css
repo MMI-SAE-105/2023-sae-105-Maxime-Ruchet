@@ -69,3 +69,10 @@ input[type=radio] {display:none}
     grid-template-rows: 1fr 10rem;
     
       }
+
+.a_accordeon {
+    display: block;
+    color: #592C88;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}

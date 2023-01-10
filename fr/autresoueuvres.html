@@ -9,24 +9,25 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
-   <header>
-    <img class="logo" src="/public/img/logo_site.svg" alt="logo site">
-    <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
-    <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
-    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
-        <ul class="navbar">
-            <li class="menuitem">Walter Crane</li>
-            <li class="menuitem">Theodor Kittelsen</li>
-            <li class="menuitem">Oda Krohg</li>
-            <li class="menuitem">Harald Sohlberg</li>
-            <li class="menuitem">Frise chronologique</li>
-            <hr>
-            <li class="menuitem">Billetterie</li>
-            <a href="/fr/contact.html"><li class="menuitem">Contact</li></a>
-            <li class="menuitem">À propos</li>
-        </ul>
-    </nav>
-   </header>
+    <header>
+        <a href="/fr/index.html"><img class="logo" src="/public/img/logo_site.svg" alt="logo site"></a>
+        <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+            <ul class="navbar">
+                <li class="menuitem"><a class="amenu" href="/fr/waltercrane.html">Walter Crane</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/theodore.html">Theodor Kittelsen</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/oda.html">Oda Krohg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/harald.html">Harald Sohlberg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/frise.html">Frise chronologique</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/autresoueuvres.html">Autres oeuvres des auteurs</a></li>
+                <hr>
+                <li class="menuitem">Billetterie</li>
+                <li class="menuitem"><a class="amenu" href="/fr/contact.html">Contact</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/apropos.html">À propos</a></li>
+            </ul>
+        </nav>
+       </header>
    <main>
     <h2>Autres oeuvres des différents artistes</h2>
     <div class=cadre-ex>
@@ -36,11 +37,11 @@
         <label for="votre_menu">Walter Crane</label>
         <div class=nav>
         <ul>
-        <li><a href="">Porte de France Tunis</a></li>
-        <li><a href="">The Briar Rose</a></li>
-        <li><a href="">Lohengrin</a></li>
-        <li><a href="">United States</a></li>
-        <li><a href="">The Briar Rose</a></li>
+        <li><a class="a_accordeon" href="">Porte de France Tunis</a></li>
+        <li><a class="a_accordeon" href="">The Briar Rose</a></li>
+        <li><a class="a_accordeon" href="">Lohengrin</a></li>
+        <li><a class="a_accordeon" href="">United States</a></li>
+        <li><a class="a_accordeon" href="">The Briar Rose</a></li>
         </ul>
         </div>
         </div>
@@ -51,11 +52,11 @@
             <label for="votre_menu1">Theodor Kittelsen</label>
             <div class=nav>
             <ul>
-            <li><a href="">White Bear King Valemon</a></li>
-            <li><a href="">Musstad</a></li>
-            <li><a href="">Soria Moria Slott</a></li>
-            <li><a href="">Goblin</a></li>
-            <li><a href="">Christmas troll</a></li>
+            <li><a class="a_accordeon" href="">White Bear King Valemon</a></li>
+            <li><a class="a_accordeon" href="">Musstad</a></li>
+            <li><a class="a_accordeon" href="">Soria Moria Slott</a></li>
+            <li><a class="a_accordeon" href="">Goblin</a></li>
+            <li><a class="a_accordeon" href="">Christmas troll</a></li>
             </ul>
             </div>
             </div>
@@ -66,11 +67,11 @@
             <label for="votre_menu2">Oda Krohg</label>
             <div class=nav>
             <ul>
-            <li><a href="">Gunnar Heiberg</a></li>
-            <li><a href="">Self-Portrait</a></li>
-            <li><a href="">Sonnenflecken</a></li>
-            <li><a href="">Poor Little One</a></li>
-            <li><a href="">Standing Boy</a></li>
+            <li><a class="a_accordeon" href="">Gunnar Heiberg</a></li>
+            <li><a class="a_accordeon" href="">Self-Portrait</a></li>
+            <li><a class="a_accordeon" href="">Sonnenflecken</a></li>
+            <li><a class="a_accordeon" href="">Poor Little One</a></li>
+            <li><a class="a_accordeon" href="">Standing Boy</a></li>
             </ul>
             </div>
             </div>
@@ -81,11 +82,11 @@
             <label for="votre_menu3">Harald Sohlberg</label>
             <div class=nav>
             <ul>
-            <li><a href="">Noite</a></li>
-            <li><a href="">Solskin</a></li>
-            <li><a href="">Rua em Røros</a></li>
-            <li><a href="">Solgløtt</a></li>
-            <li><a href="">Auto-retrato</a></li>
+            <li><a class="a_accordeon" href="">Noite</a></li>
+            <li><a class="a_accordeon" href="">Solskin</a></li>
+            <li><a class="a_accordeon" href="">Rua em Røros</a></li>
+            <li><a class="a_accordeon" href="">Solgløtt</a></li>
+            <li><a class="a_accordeon" href="">Auto-retrato</a></li>
             </ul>
             </div>
             </div>
