@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE 105</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+   <header>
+    <img class="logo" src="/public/img/logo_site.svg" alt="logo site">
+    <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+    <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+        <ul class="navbar">
+            <li class="menuitem">Walter Crane</li>
+            <li class="menuitem">Theodor Kittelsen</li>
+            <li class="menuitem">Oda Krohg</li>
+            <li class="menuitem">Harald Sohlberg</li>
+            <li class="menuitem">Frise chronologique</li>
+            <hr>
+            <li class="menuitem">Billetterie</li>
+            <a href="/fr/contact.html"><li class="menuitem">Contact</li></a>
+            <li class="menuitem">À propos</li>
+        </ul>
+    </nav>
+   </header>
+   <main>
+    <h1>Autres oeuvres des différents artistes</h1>
+    <div class=cadre-ex>
+        <div class=cadre-accordeon>
+        <input type="radio" name="accordeon" id="votre_menu">
+        <div class=accordeon>
+        <label for="votre_menu">Walter Crane</label>
+        <div class=nav>
+        <ul>
+        <li><a href="">Porte de France Tunis</a></li>
+        <li><a href="">The Briar Rose</a></li>
+        <li><a href="">Lohengrin</a></li>
+        <li><a href="">United States</a></li>
+        <li><a href="">The Briar Rose</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        		
+   </main>
+    <footer>
+        <div class="footer">
+            <div class="container-logo-with-info">
+                <div class="logo-with-info">
+                <div class="info">
+                    <ul>
+                        <li class="lifooter">Maxime Ruchet</li>
+                        <li class="lifooter"> Groupe C1</li>
+                    </ul>
+                </div>
+                <div class="logo-site">
+                    <img class="logosite" src="/public/img/logo_site.svg" alt="Logo">
+                </div>
+                </div>
+                <div class="list-mail-with-contact">
+                    <ul>
+                        <li>
+                            <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                        </li>
+                        <li class="lifooter">Contact</li>
+                    </ul> 
+                </div>
+           </div>
+            <div class="logo-contact">
+                <a href="https://www.instagram.com/maxime.ruchet/"><img src="/public/img/instagram.svg" alt="logo insta"></a>
+                <a href="https://www.linkedin.com/in/maxime-ruchet-b87b55257/"><img src="/public/img/iconlinkediin.svg" alt="logo linkedin"></a>
+                <a href="https://twitter.com/MaX25181"><img src="/public/img/icontwitter.svg" alt="twitter"></a>
+    
+            </div>
+            <div class="bas-de-footer">
+    
+            </div>
+        </div>
+     </footer>
+    </body>
+    </html>
+
+   
