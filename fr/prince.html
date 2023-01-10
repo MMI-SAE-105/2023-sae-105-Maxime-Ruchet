@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE 105</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+   <header>
+    <img class="logo" src="/public/img/logo_site.svg" alt="logo site">
+    <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+    <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+        <ul class="navbar">
+            <li class="menuitem">Walter Crane</li>
+            <li class="menuitem">Theodor Kittelsen</li>
+            <li class="menuitem">Oda Krohg</li>
+            <li class="menuitem">Harald Sohlberg</li>
+            <li class="menuitem">Frise chronologique</li>
+            <hr>
+            <li class="menuitem">Billetterie</li>
+            <li class="menuitem">Contact</li>
+            <li class="menuitem">À propos</li>
+        </ul>
+    </nav>
+   </header>
+   
+   <main>
+    <h2>The Frog Prince and other stories</h2>
+    <img src="/public/img/imageprince.webp" alt="image prince">
+    <h3>Présentation</h3>
+    <p>Cette oeuvre à été réalisé par Walter Crane en 1874. Elle appartient au style Néoromantisme. Son genre et de type Illustration.</p>
+    <h3>Description</h3>
+    <p>Walter Crane a utilisé des couleur plutôt chaude pour cette réalisation. Le tableau evoqué dans cette article une scène tiré de compte. La femme que nous voyons au centre de l’image et une princesse avec son prince.</p>
+    <h3>Mon avis personnel</h3>
+    <p>Pour moi, je trouve que cette oeuvre est plutôt bien réalisé. Je préfére,malgré la première réalisation de Walter Crane. Cependant, trouve que le réalisateur à très représenté la scène qu’il a voulu décrire.</p>
+</main>
+
+<footer>
+<ul>
+    <li>Maxime Ruchet</li>
+    <li> Groupe C1</li>
+</ul>
+<img src="/public/img/logo_site.svg" alt="logosite">
+<ul>
+    <li>
+        <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+    </li>
+    <li>Contact</li>
+</ul>
+            <a href="https://www.instagram.com/maxime.ruchet/"><img src="/public/img/instagram.svg" alt="logo insta"></a>
+            <a href="https://www.linkedin.com/in/maxime-ruchet-b87b55257/"><img src="/public/img/iconlinkediin.svg" alt="logo linkedin"></a>
+            <a href="https://twitter.com/MaX25181"><img src="/public/img/icontwitter.svg" alt="twitter"></a>
+</footer>
+</body>
+</html>
