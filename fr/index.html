@@ -12,6 +12,18 @@
     <img src="/public/img/logo_site.svg" alt="logo site">
     <img src="/public/img/icon_anglais.svg" alt="menu">
     <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
-    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu"></nav>
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+        <ul>
+            <li>Walter Crane</li>
+            <li>Theodor Kittelsen</li>
+            <li>Oda Krohg</li>
+            <li>Harald Sohlberg</li>
+            <li>Frise chronologique</li>
+            <hr>
+            <li>Billetterie</li>
+            <li>Contact</li>
+            <li>À propos</li>
+        </ul>
+    </nav>
    </header> 
 </body>
