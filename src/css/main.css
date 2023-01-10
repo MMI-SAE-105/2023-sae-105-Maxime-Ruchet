@@ -1,4 +1,9 @@
 h1 {
     margin-top: 80px;
     font-family: inter;
-    }
+}
+
+.alignement_index {
+    display: flex;
+    align-items: center;
+}
