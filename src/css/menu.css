@@ -8,3 +8,13 @@
     display: grid;
     place-content: center;
 }
+
+button {
+    position: relative;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
