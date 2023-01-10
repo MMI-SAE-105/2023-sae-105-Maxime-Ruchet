@@ -19,7 +19,7 @@ p {
 h2 {
     font-family: inter;
     text-align: center;
-    margin-top: auto;
+    margin-top: 80px;
 }
 
 .imgcarrousel {
@@ -40,4 +40,10 @@ li {
     text-align: center;
     color: #592C88;
     font-family: 'Inter', sans-serif;
+}
+
+.h2_main {
+    font-family: inter;
+    text-align: center;
+    margin-top: 10px;
 }
