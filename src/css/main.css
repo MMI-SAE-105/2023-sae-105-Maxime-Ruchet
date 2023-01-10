@@ -47,3 +47,18 @@ li {
     text-align: center;
     margin-top: 10px;
 }
+
+.imagemain {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: auto;
+}
+
+h3 {
+    font-family: inter;
+    font-size: 24px;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+}
