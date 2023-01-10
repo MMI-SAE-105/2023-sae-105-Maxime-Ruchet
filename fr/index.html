@@ -43,11 +43,37 @@
         <p class="pindex">Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p>
     </div>
     <h2 class="h2_main">Artistes au programme</h2>
-    <img class="imgcarrousel" src="/public/img/carrousel1.webp" alt="imagecarrousel1">
-    <img class="imgcarrousel" src="/public/img/carrousel2.webp" alt="imagecarrousel2">
-    <img class="imgcarrousel" src="/public/img/carrousel3.webp" alt="imagecarrousel3">
-    <img class="imgcarrousel" src="/public/img/carrousel4.webp" alt="imagecarrousel4">
-    <h2>Tarifs</h2>
+    
+    <div class="carrousel" x-data="{}">
+        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"></button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"></button>
+        <div class="carrousel_site">
+          <div id="ecran-1" class="carrousel_image">
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel1.webp" alt="image1">
+              <div id="ecran-1" class="carrousel_image"></div>
+            </figure>
+          </div>
+          <div id="ecran-2" class="carrousel_image">
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel2.webp" alt="image2">
+              <div id="ecran-2" class="carrousel_image"></div>
+            </figure>
+          </div>
+          <div id="ecran-3" class="carrousel_image">
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel3.webp" alt="image3">
+              <div id="ecran-3" class="carrousel_image">
+            </figure>
+          </div>
+          <div id="ecran-4" class="carrousel_image">
+            <div id="ecran-4" class="carrousel_image"></div>
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel4.webp" alt="image4">
+            </figure>
+          </div>
+      </div>
+    
+      <h2 class="h2_tarif">Tarifs</h2>
     <ul>
         <li>Plein tarif ⇒ 11€</li>
         <li>Tarif réduit ⇒ 7,50€</li>

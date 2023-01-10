@@ -24,14 +24,6 @@ h2 {
     margin-top: 80px;
 }
 
-.imgcarrousel {
-  width: 30%;
-  display: block;
-  margin: auto;
-  margin-top: auto;
-  margin-top: 10px;
-}
-
 li {
     font-family: inter;
     color :#592C88;
@@ -91,4 +83,10 @@ h3 {
 
 .a_article {
     color: #592C88;
+}
+
+.h2_tarif {
+    font-family: inter;
+    text-align: center;
+    margin-top: 30px;
 }
