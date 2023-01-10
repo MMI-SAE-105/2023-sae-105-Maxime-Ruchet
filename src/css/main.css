@@ -11,9 +11,11 @@ h1 {
 
 p {
     font-family: inter;
-    color :#592C88;
-    font-size: 18px;
+    color :#000000;
+    font-size: 14px;
     font-weight: bold;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
 }
 
 h2 {
@@ -61,4 +63,32 @@ h3 {
     font-size: 24px;
     padding-left: 2.2rem;
     padding-right: 2.2rem;
+}
+
+.pindex {
+    font-family: inter;
+    color :#592C88;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img_bas_article {
+    display: flex;
+    align-items: center;
+}
+
+.imgbas {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.a_bas_article {
+    display: flex;
+    text-align: center;
+}
+
+.a_article {
+    color: #592C88;
 }
