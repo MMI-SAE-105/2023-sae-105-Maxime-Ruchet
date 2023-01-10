@@ -10,3 +10,11 @@ footer {
     padding-top: 43px;
     margin-top: 10px;
 }
+
+.logo-with-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    align-items: center;
+}
+  
