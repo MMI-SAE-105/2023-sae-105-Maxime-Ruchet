@@ -21,7 +21,10 @@ header {
         overflow: hidden;
 }
 
-
+.logo {
+    display: block;
+    position: fixed;
+}
 
 
       
