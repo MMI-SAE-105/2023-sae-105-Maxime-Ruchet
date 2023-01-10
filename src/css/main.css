@@ -20,3 +20,11 @@ h2 {
     text-align: center;
     margin-top: auto;
 }
+
+.imgcarrousel {
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 10px;
+}
