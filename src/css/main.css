@@ -35,3 +35,9 @@ li {
     color :#592C88;
 }
 
+.abilletterie {
+    display: block;
+    text-align: center;
+    color: #592C88;
+    font-family: 'Inter', sans-serif;
+}
