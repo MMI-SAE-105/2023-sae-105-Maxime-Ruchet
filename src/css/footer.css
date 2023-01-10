@@ -41,3 +41,18 @@ footer {
   .container-logo-with-info ul li {
     margin-top: 10px;
   }
+
+  .logo-contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .logo-contact a {
+    margin-left: 22px;
+  }
+  
+  .logo-contact a:first-child {
+  margin-left: 0;
+  }
+  
