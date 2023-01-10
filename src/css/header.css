@@ -24,7 +24,10 @@ header {
 .logo {
     display: block;
     position: fixed;
-
+    width: 20px;
+    top: 10px;
+    left: 6%;
+    margin-top: 5px;
 }
 
 .united {
