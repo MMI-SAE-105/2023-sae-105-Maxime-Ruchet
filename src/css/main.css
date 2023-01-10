@@ -7,3 +7,10 @@ h1 {
     display: flex;
     align-items: center;
 }
+
+p {
+    font-family: inter;
+    color :#592C88;
+    font-size: 20px;
+    font-weight: bold;
+}
