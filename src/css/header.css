@@ -32,7 +32,7 @@ header {
 
 .united {
     width: 25px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .navbar {
@@ -43,5 +43,10 @@ header {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
   }
+
+.united {
+    width: 25px;
+    margin-top: 10px;
+}
 
       
