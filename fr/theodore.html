@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE 105</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <header>
+     <img class="logo" src="/public/img/logo_site.svg" alt="logo site">
+     <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+     <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+         <ul class="navbar">
+             <li class="menuitem">Walter Crane</li>
+             <li class="menuitem">Theodor Kittelsen</li>
+             <li class="menuitem">Oda Krohg</li>
+             <li class="menuitem">Harald Sohlberg</li>
+             <li class="menuitem">Frise chronologique</li>
+             <hr>
+             <li class="menuitem">Billetterie</li>
+             <li class="menuitem">Contact</li>
+             <li class="menuitem">À propos</li>
+         </ul>
+     </nav>
+    </header>
+    <main>
+        <h2>Walter Crane</h2>
+        <img src="/public/img/theodore1.webp" alt="imagetheodore1">
+        <h3>Biographie</h3>
+        <p>Theodor Severin Kittelsen (né le 27 avril 1857 à Kragerø en Norvège, mort le 21 janvier 1914 à Jeløya), était un peintre, dessinateur et illustrateur norvégien.</p>
+        <h3>À propos de l’auteur</h3>
+        <p>Theodor Kittelsen naquit en 1857 à Kragerø, le deuxième de huit enfants. Son père était marchand, mais l'économie familiale périclita à la mort de ce dernier, lorsque Theodor avait 11 ans. L'enfant dut commencer un apprentissage d'horloger à Kragerø, puis de peintre à Kristiania. Il s'enfuit, mais reprit un apprentissage d'horloger à Arendal chez l'horloger allemand Stein.</p>
+        <h3>Ces oeuvre les plus populaire</h3>
+        <img src="/public/img/theodore2.webp" alt="imagetheodore2">
+        <a href="#">Echo</a>
+        <img src="/public/img/theodore3.webp" alt="imagetheodore3">
+        <a href="#">Peer Gynt In the Hall of the Mountain King</a>
+    </main>
+    <footer>
+        <ul>
+            <li>Maxime Ruchet</li>
+            <li> Groupe C1</li>
+        </ul>
+        <img src="/public/img/logo_site.svg" alt="logosite">
+        <ul>
+            <li>
+                <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+            </li>
+            <li>Contact</li>
+        </ul>
+                    <a href="https://www.instagram.com/maxime.ruchet/"><img src="/public/img/instagram.svg" alt="logo insta"></a>
+                    <a href="https://www.linkedin.com/in/maxime-ruchet-b87b55257/"><img src="/public/img/iconlinkediin.svg" alt="logo linkedin"></a>
+                    <a href="https://twitter.com/MaX25181"><img src="/public/img/icontwitter.svg" alt="twitter"></a>
+    </footer>
+</body>
+</html>
