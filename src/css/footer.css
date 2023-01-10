@@ -56,3 +56,15 @@ footer {
   margin-left: 0;
   }
   
+  .bas-de-footer p {
+    margin-bottom: 20px;
+    }
+    
+    .bas-de-footer p span {
+      margin-bottom: 0px;
+    }
+    
+    .bas-de-footer p span a {
+      color: white;
+      text-decoration: underline;
+    }
