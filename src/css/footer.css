@@ -23,4 +23,21 @@ footer {
     color: white
   
 }
+
+.container-logo-with-info {
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.container-logo-with-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
   
+  .list-mail-with-contact {
+    margin-top: 0;
+  }
+  
+  .container-logo-with-info ul li {
+    margin-top: 10px;
+  }
