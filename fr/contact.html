@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE 105</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+   <header>
+    <img class="logo" src="/public/img/logo_site.svg" alt="logo site">
+    <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+    <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+        <ul class="navbar">
+            <li class="menuitem">Walter Crane</li>
+            <li class="menuitem">Theodor Kittelsen</li>
+            <li class="menuitem">Oda Krohg</li>
+            <li class="menuitem">Harald Sohlberg</li>
+            <li class="menuitem">Frise chronologique</li>
+            <hr>
+            <li class="menuitem">Billetterie</li>
+            <a href="/fr/contact.html"><li class="menuitem">Contact</li></a>
+            <li class="menuitem">À propos</li>
+        </ul>
+    </nav>
+   </header>
+   <main>
+    <div class="contactez-nous">
+        <h1 class="h1contact">Contactez-nous</h1>
+        
+        <p class="pcontact">Un problème, une question. N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+        <form action="/page-traitement-donnees" method="post">
+        <div>
+        <label for="nom">Votre Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Nom" required>
+        </div>
+
+   </main>
