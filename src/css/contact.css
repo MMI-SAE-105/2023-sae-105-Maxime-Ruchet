@@ -1,0 +1,21 @@
+.contactez-nous {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    background: white;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    .contact {
+      background-color: #87CEFA;
+    }
+    
+    .contactez-nous > h1 {
+    font-weight: 500;
+    }
+    
+    .contactez-nous > p {
+    font-weight: 300;
+    }
