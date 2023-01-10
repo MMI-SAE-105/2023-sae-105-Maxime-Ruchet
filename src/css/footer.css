@@ -17,4 +17,10 @@ footer {
     margin-bottom: 0;
     align-items: center;
 }
+
+.mailto a {
+    text-decoration: underline;
+    color: white
+  
+}
   
