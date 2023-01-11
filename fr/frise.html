@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE 105</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/fr/index.html"><img class="logo" src="/public/img/logo_site.svg" alt="logo site"></a>
+        <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+            <ul class="navbar">
+                <li class="menuitem"><a class="amenu" href="/fr/waltercrane.html">Walter Crane</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/theodore.html">Theodor Kittelsen</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/oda.html">Oda Krohg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/harald.html">Harald Sohlberg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/frise.html">Frise chronologique</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/autresoueuvres.html">Autres oeuvres des auteurs</a></li>
+                <hr>
+                <li class="menuitem">Billetterie</li>
+                <li class="menuitem"><a class="amenu" href="/fr/contact.html">Contact</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/apropos.html">À propos</a></li>
+            </ul>
+        </nav>
+       </header>
+
+<main>
+    <div class="frise">
+  
+  
+        <div class="segment titre">
+          <div class="bloc"><h1>Frise de mes autres lieux favoris<span class="date"></span></h1></div>
+          <div class="cb"></div>
+        </div>
+        
+        
+        <div class="segment first">
+          <div class="bloc gauche"></div>
+          <div class="bloc droite"></div>
+          <div class="cb"></div>
+        </div>
+        
+        
+        <div class="segment">
+          <div class="bloc gauche">
+            <img class="imgfrise" src="/public/img/imagefrise1.webp" alt="imgfrise1">
+          </div>
+          <div class="bloc droite">
+            <h2>Walter Crane</h2>
+            <h2>1845/1915</h2>
+          </div>
+          <div class="cb"></div>
+        </div>
+        
+        
+        <div class="segment">
+          <div class="bloc gauche">
+            <img class="imgfrise" src="/public/img/imagefrise2.webp" alt="imgfrise2">
+          </div>
+          <div class="bloc droite">
+            <h2>Theodor Kittelsen</h2>
+            <h2>1857/1914</h2>
+          </div>
+          <div class="cb"></div>
+        </div>
+        
+        
+        <div class="segment">
+          <div class="bloc gauche">
+           <img class="imgfrise" src="/public/img/imagefrise3.webp" alt="imgfrise3">
+          </div>
+          <div class="bloc droite">
+            <h2>Oda Krohg</h2>
+            <h2>1860/1935</h2>
+          </div>
+          <div class="cb"></div>
+        </div>
+        
+        <div class="segment">
+          <div class="bloc gauche">
+            <img class="imgfrise" src="/public/img/imagefrise4.webp" alt="imgfrise4">
+          </div>
+          <div class="bloc droite">
+            <h2>Harald Sohlberg</h2>
+            <h2>1883/1914</h2>
+          </div>
+          <div class="cb"></div>
+        </div>
+        
+        
+        <div class="segment last">
+          <div class="bloc gauche">&nbsp;</div>
+          <div class="bloc droite">&nbsp;</div>
+          <div class="cb"></div>
+        </div>>
+        
+        
+      </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="container-logo-with-info">
+            <div class="logo-with-info">
+            <div class="info">
+                <ul>
+                    <li class="lifooter">Maxime Ruchet</li>
+                    <li class="lifooter"> Groupe C1</li>
+                </ul>
+            </div>
+            <div class="logo-site">
+                <img class="logosite" src="/public/img/logo_site.svg" alt="Logo">
+            </div>
+            </div>
+            <div class="list-mail-with-contact">
+                <ul>
+                    <li>
+                        <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                    </li>
+                    <li class="lifooter">Contact</li>
+                </ul> 
+            </div>
+       </div>
+        <div class="logo-contact">
+            <a href="https://www.instagram.com/maxime.ruchet/"><img src="/public/img/instagram.svg" alt="logo insta"></a>
+            <a href="https://www.linkedin.com/in/maxime-ruchet-b87b55257/"><img src="/public/img/iconlinkediin.svg" alt="logo linkedin"></a>
+            <a href="https://twitter.com/MaX25181"><img src="/public/img/icontwitter.svg" alt="twitter"></a>
+
+        </div>
+        <div class="bas-de-footer">
+
+        </div>
+    </div>
+</footer>
