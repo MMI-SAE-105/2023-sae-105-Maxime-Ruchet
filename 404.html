@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="/src/css/style.css">
 <title>404 - Page Non trouvée</title>
-<h1>Page Non trouvée</h1>
+<h1 class="sous_titre_404">OUPS !</h1>
+<h1 class="titre_404">La page que vous recherchez semble introuvable</h1>
+<h2>Code erreur:404</h2>
 <form action="https://duckduckgo.com/" method="GET" 
     x-data="{ q:'', }" 
     x-on:submit="q = q + ' site:mmimontbeliard.com'">
+    <div class="recherche_404">
     <label for="q">Text à chercher :</label>
     <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Rechercher</button>
+    <button class="boutton_404" type="submit">Rechercher</button>
 </form>
+</div>

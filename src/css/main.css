@@ -106,3 +106,21 @@ q {
     font-weight: bold;
     text-align: center;
 }
+
+.sous_titre_404 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.titre_404 {
+    text-align: center;
+}
+
+.recherche_404 {
+    display: flex;
+    align-items: center;
+}
+
+.boutton_404 {
+    color: #592C88;
+}
