@@ -64,25 +64,19 @@ h3 {
     font-weight: bold;
 }
 
-.img_bas_article {
-    display: flex;
-    align-items: center;
-}
-
 .imgbas {
     display: block;
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
     margin: auto;
+    margin-top: 20px;
 }
 
-.a_bas_article {
-    display: flex;
-    text-align: center;
-}
 
 .a_article {
     color: #592C88;
+    text-align: center;
+    display: block;
 }
 
 .h2_tarif {
