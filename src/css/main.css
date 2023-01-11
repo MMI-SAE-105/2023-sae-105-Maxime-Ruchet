@@ -124,3 +124,25 @@ q {
 .boutton_404 {
     color: #592C88;
 }
+
+.h2_redirect {
+    color: #592C88;
+}
+
+.a_redirect {
+    color: #000000;
+}
+
+.p_redirect {
+font-size: 20px;
+color:#592C88
+}
+
+.li_redirect {
+    list-style: none;
+}
+
+.nav_redirect {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE 105</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/fr/index.html"><img class="logo" src="/public/img/logo_site.svg" alt="logo site"></a>
+        <img class="united" src="/public/img/icon_anglais.svg" alt="icon anglais">
+        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img class="imgmenu" src="/public/img/icon_menu.svg" alt="menu"></button>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+            <ul class="navbar">
+                <li class="menuitem"><a class="amenu" href="/fr/waltercrane.html">Walter Crane</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/theodore.html">Theodor Kittelsen</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/oda.html">Oda Krohg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/harald.html">Harald Sohlberg</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/frise.html">Frise chronologique</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/autresoueuvres.html">Autres oeuvres des auteurs</a></li>
+            </ul>
+                <div class="barre"></div>
+            <ul class="navbar">
+                <li class="menuitem">Billetterie</li>
+                <li class="menuitem"><a class="amenu" href="/fr/contact.html">Contact</a></li>
+                <li class="menuitem"><a class="amenu" href="/fr/apropos.html">À propos</a></li>
+            </ul>
+        </nav>
+       </header>
+   <main>
+    <h1>Néoromantisme festival</h1>
+    <div class="alignement_index">
+        <img src="/public/img/calendrier.svg" alt="calendrier">
+        <p class="pindex">Du 13 avril au 23 juin 2021</p>
+    </div>
+    <div class="alignement_index">
+        <img src="/public/img/localisation.svg" alt="location">
+        <p class="pindex">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+    </div>
+    <div class="alignement_index">
+        <img src="/public/img/icon_horloge.svg" alt="horloge">
+        <p class="pindex">Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p>
+    </div>
+    <h2 class="h2_main">Artistes au programme</h2>
+    
+    <div class="carrousel" x-data="{}">
+        <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button>
+        <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+        <div class="carrousel_site" x-ref="parent">
+          <div id="ecran-1" class="carrousel_image">
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel1.webp" alt="image1">
+              <div id="ecran-1" class="carrousel_image"></div>
+            </figure>
+          </div>
+          <div id="ecran-2" class="carrousel_image">
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel2.webp" alt="image2">
+              <div id="ecran-2" class="carrousel_image"></div>
+            </figure>
+          </div>
+          <div id="ecran-3" class="carrousel_image">
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel3.webp" alt="image3">
+              <div id="ecran-3" class="carrousel_image">
+            </figure>
+          </div>
+          <div id="ecran-4" class="carrousel_image">
+            <div id="ecran-4" class="carrousel_image"></div>
+            <figure>
+              <img class="img_carrousel" src="/public/img/carrousel4.webp" alt="image4">
+            </figure>
+          </div>
+      </div>
+    
+      <h2 class="h2_tarif">Tarifs</h2>
+    <ul>
+        <li>Plein tarif ⇒ 11€</li>
+        <li>Tarif réduit ⇒ 7,50€</li>
+        <li>Réduction 13 - 25 ans ⇒ 5€</li>
+        <li>Fondation Cartier Pass ⇒ 18€ - 50€</li>
+        <li>Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants ⇒ Gratuit</li>
+    </ul>
+    <a class="abilletterie" href="billeterie">lien vers la billetterie</a>
+   </main>
+
+<footer>
+    <div class="footer">
+        <div class="container-logo-with-info">
+            <div class="logo-with-info">
+            <div class="info">
+                <ul>
+                    <li class="lifooter">Maxime Ruchet</li>
+                    <li class="lifooter"> Groupe C1</li>
+                </ul>
+            </div>
+            <div class="logo-site">
+                <img class="logosite" src="/public/img/logo_site.svg" alt="Logo">
+            </div>
+            </div>
+            <div class="list-mail-with-contact">
+                <ul>
+                    <li>
+                        <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                    </li>
+                    <li class="lifooter">Contact</li>
+                </ul> 
+            </div>
+       </div>
+        <div class="logo-contact">
+            <a href="https://www.instagram.com/maxime.ruchet/"><img src="/public/img/instagram.svg" alt="logo insta"></a>
+            <a href="https://www.linkedin.com/in/maxime-ruchet-b87b55257/"><img src="/public/img/iconlinkediin.svg" alt="logo linkedin"></a>
+            <a href="https://twitter.com/MaX25181"><img src="/public/img/icontwitter.svg" alt="twitter"></a>
+
+        </div>
+        <div class="bas-de-footer">
+
+        </div>
+    </div>
+</footer>
+</body>
+</html>
