@@ -33,3 +33,12 @@ button {
     color: white;
     text-decoration: none;
 }
+
+.barre {
+  position: absolute;
+  width: 85%;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
