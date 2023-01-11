@@ -1,0 +1,101 @@
+a { 
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.frise { margin: auto;
+margin-top: 60px;
+width: 340px; }
+
+.bloc > h1 { margin-top: 10px; font-size: 36px; }
+.bloc > h2 { margin-top: 0px; font-size: 22px; color: black;}
+
+.segment {  
+  margin: 0;
+  background-image: url('https://olaf.avenati.net/external-assets/sciencespo/ligne-1.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.segment.first {   
+  background-image: url('https://olaf.avenati.net/external-assets/sciencespo/ligne-start.png');
+}
+.segment.last {   
+  background-image: url('https://olaf.avenati.net/external-assets/sciencespo/ligne-end-2.png'); 
+}
+
+.segment.titre {   
+  background-image: none; 
+}
+
+.bloc {
+  background-color: rgba(255,255,255,1);
+  box-shadow: 0px 0px 20px rgba(255,100,51,0.3); 
+  margin:15px;
+  border-radius:5px;
+  width:38%;
+}
+
+.titre .bloc,
+.first .bloc,
+.last .bloc {
+  background-color: rgba(255,255,255,0);
+  box-shadow: 0px 0px 20px rgba(255,100,51,0);
+  margin:15px;
+  padding:2%;
+  border-radius:5px;
+  width:96%;
+  text-align: center
+}
+.titre .bloc { margin-bottom:-35px; }
+
+.date {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+}
+.bloc.droite .date,
+.bloc.gauche .date {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  
+}
+
+a { 
+  display: inline-block; 
+  color: rgba(0,0,255,1); 
+  
+}
+a:hover { 
+  background-color: rgba(0,0,255,1); 
+  color: rgba(255,255,255,1); padding: 0 5px;
+}
+.bloc .source { font-family: arial, sans serif; font-size: 14px; font-weight: bold; text-transform: uppercase; margin:0 10px 0 0; }
+.bloc .source::before { content:"["; }
+.bloc .source::after { content:"]"; }
+.bloc .source:hover::before,
+.bloc .source:hover::after { color: rgba(0,0,255,1); }
+
+.bloc .a-plus { font-family: arial, sans serif; font-size: 14px; font-weight: bold; margin: 0 10px 0 0; }
+.bloc .a-plus::before { content:"—» " }
+
+.gauche {
+  float:left;
+}
+.droite {
+  float:right;
+}
+.cb { clear:both; }
+
+.imgfrise {
+  display: block;
+  max-width: 95%;
+  height: auto;
+  margin: auto;
+  margin-block: 10px;
+}
